@@ -42,6 +42,14 @@
            document.getElementById("rslt").innerHTML=c;
 
          }
+               }
+               function exp() {
+           let a=document.getElementById("num1").value;
+           let b=document.getElementById("num2").value;
+           let c = Number(a) ** Number(b);
+           document.getElementById("rslt").innerHTML=c;
+
+         }
       
     </script>
   </head>
@@ -56,6 +64,7 @@
     <button onclick="sub()">Subtract</button>
     <button onclick="mult()">Multiply</button>
     <button onclick="div()">Divide</button>
+    <button onclick="exp()">x<sup>y</sup></button>
     
     </p>
     <p>
